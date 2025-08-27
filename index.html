@@ -1,188 +1,116 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>名片侠 - 用户服务条款</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f8f9fa;
-        }
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 2.2em;
-        }
-        h2 {
-            color: #3498db;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-            margin-top: 30px;
-        }
-        h3 {
-            color: #2980b9;
-            margin-top: 25px;
-        }
-        .highlight {
-            background-color: #e8f4fd;
-            padding: 15px;
-            border-left: 4px solid #3498db;
-            margin: 20px 0;
-            border-radius: 4px;
-        }
-        .contact {
-            background-color: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        .effective-date {
-            text-align: center;
-            color: #666;
-            font-size: 0.9em;
-            margin-bottom: 30px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>名片侠 - 最终用户许可协议（EULA）/ 用户服务条款</title>
+  <meta name="description" content="名片侠（iOS）最终用户许可协议（EULA）与用户服务条款" />
+  <style>
+    :root{--bg:#f7f8fa;--fg:#222;--muted:#666;--brand:#2563eb;--card:#fff;--border:#e5e7eb}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.7 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,system-ui,"Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    .wrap{max-width:960px;margin:0 auto;padding:24px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:12px;box-shadow:0 2px 16px rgba(0,0,0,.04);padding:32px}
+    h1{font-size:28px;margin:0 0 8px}
+    .meta{color:var(--muted);margin-bottom:24px}
+    h2{font-size:20px;margin:28px 0 12px;border-left:4px solid var(--brand);padding-left:10px}
+    h3{font-size:16px;margin:20px 0 10px}
+    a{color:var(--brand);text-decoration:none;border-bottom:1px dashed rgba(37,99,235,.35)}
+    a:hover{opacity:.9}
+    .note{background:#eef2ff;border:1px solid #c7d2fe;border-radius:8px;padding:12px 14px;margin:16px 0}
+    ul{padding-left:20px}
+    li{margin:6px 0}
+    .footer{margin-top:24px;color:var(--muted);font-size:14px}
+    .muted{color:var(--muted)}
+    code{background:#f1f5f9;padding:0 6px;border-radius:4px}
+    .block{padding:12px 14px;background:#f8fafc;border:1px dashed var(--border);border-radius:8px}
+  </style>
+  <!-- 重要说明（不会显示给用户）：
+       1) 这份 HTML 用于你的网站/GitHub Pages 对外展示。
+       2) App Store Connect 的“许可协议（EULA）”字段只接受纯文本（HTML 会被剥离）；提交审核请粘贴纯文本。 -->
 </head>
 <body>
-    <div class="container">
-        <h1>名片侠用户服务条款</h1>
-        <div class="effective-date">生效日期：2025年8月27日</div>
-        
-        <div class="highlight">
-            <strong>重要提示：</strong>在使用名片侠应用程序之前，请仔细阅读本服务条款。使用本应用即表示您同意接受本条款的约束。
+  <main class="wrap">
+    <article class="card">
+      <header>
+        <h1>名片侠 最终用户许可协议（EULA）与用户服务条款</h1>
+        <div class="meta">生效日期：2025年08月27日｜最后更新：2025年08月27日</div>
+        <div class="note">
+          <strong>重要提示：</strong>请在使用名片侠（“本应用”）前仔细阅读。本应用适用于 iOS。安装、访问或使用本应用，即表示你同意本协议。
         </div>
+      </header>
 
-        <h2>1. 服务概述</h2>
-        <p>名片侠是一款智能名片识别和管理应用，为用户提供以下服务：</p>
-        <ul>
-            <li>名片图像识别和信息提取</li>
-            <li>联系人信息整理和管理</li>
-            <li>数据导出和同步功能</li>
-            <li>高级订阅服务</li>
-        </ul>
+      <h2>0. 定义与适用范围</h2>
+      <p>“你/用户”指下载、安装或使用本应用的自然人；“我们/开发者”指【<strong>开发者全称</strong>】；“许可应用”指名片侠 iOS 应用。</p>
 
-        <h2>2. 接受条款</h2>
-        <p>通过下载、安装或使用名片侠应用，您确认：</p>
-        <ul>
-            <li>您已满18周岁或在监护人同意下使用</li>
-            <li>您同意遵守本服务条款</li>
-            <li>您理解并接受我们的隐私政策</li>
-        </ul>
+      <h2>1. 双方确认（Acknowledgement）</h2>
+      <p>本 EULA 仅在<strong>你与我们</strong>之间订立，<strong>非与 Apple</strong>。我们（而非 Apple）对许可应用及其内容承担全部责任。<br>
+      本 EULA 不得包含与 <a href="https://www.apple.com/legal/internet-services/itunes/cn/terms.html" target="_blank" rel="noopener">Apple 媒体服务条款（含 Usage Rules）</a> 相冲突的使用规则。 [oai_citation:1‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
 
-        <h2>3. 订阅服务</h2>
-        
-        <h3>3.1 订阅类型</h3>
-        <p>我们提供以下订阅选项：</p>
-        <ul>
-            <li><strong>月度订阅：</strong>¥10/月，自动续订</li>
-            <li><strong>年度订阅：</strong>¥88/年，自动续订</li>
-        </ul>
+      <h2>2. 许可范围（Scope of License）</h2>
+      <p>在遵守本 EULA 的前提下，我们授予你一项<strong>非独占、不可转让</strong>的许可，仅可在你<strong>拥有或控制的 Apple 品牌设备</strong>上，并依上述 <em>Usage Rules</em> 使用许可应用。若你通过<strong>家庭共享</strong>或<strong>批量购买</strong>获取，本应用可在相关关联账户范围内访问与使用。 [oai_citation:2‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
 
-        <h3>3.2 自动续订</h3>
-        <div class="highlight">
-            <p><strong>重要：</strong>所有订阅均为自动续订。除非您在当前订阅期结束前至少24小时取消订阅，否则订阅将自动续订相同期限。</p>
-        </div>
+      <h2>3. 维护与支持（Maintenance &amp; Support）</h2>
+      <p>许可应用的维护与支持由我们负责；<strong>Apple 对许可应用不承担任何维护与支持义务</strong>。 [oai_citation:3‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
 
-        <h3>3.3 付款和计费</h3>
-        <ul>
-            <li>订阅费用将通过您的Apple ID账户收取</li>
-            <li>费用在确认购买时立即收取</li>
-            <li>续订费用将在当前订阅期结束前24小时内收取</li>
-        </ul>
+      <h2>4. 保证与救济（Warranty &amp; Remedy）</h2>
+      <p>除适用法律另有要求外，许可应用按“现状”和“可用性”提供。若应用不符合任何适用保证，你可通知 Apple，<strong>Apple 将向你退还许可应用的购置价款（如有）</strong>；在法律允许的最大范围内，<strong>Apple 对许可应用不承担其他保证义务</strong>，因不符合保证所引起的任何索赔、损失、责任、损害、费用由我们承担。 [oai_citation:4‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
 
-        <h3>3.4 取消订阅</h3>
-        <p>您可以随时通过以下方式取消订阅：</p>
-        <ul>
-            <li>前往iPhone设置 > Apple ID > 订阅 > 名片侠</li>
-            <li>选择取消订阅</li>
-            <li>取消后，您的订阅将在当前付费周期结束时停止</li>
-        </ul>
+      <h2>5. 产品声明（Product Claims）</h2>
+      <p>与许可应用或你对其的占有和/或使用有关的任何主张（包括但不限于：产品责任、未符合任何适用法律或监管要求的主张、以及消费者保护/隐私或类似法规下的主张——包括涉及 HealthKit/HomeKit 等框架的使用）均由我们负责处理。<br>
+      本 EULA 对我们责任的限制不得超过适用法律允许的范围。 [oai_citation:5‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
 
-        <h2>4. 使用许可和限制</h2>
-        
-        <h3>4.1 许可授予</h3>
-        <p>我们授予您有限的、非排他性的、不可转让的许可，允许您在个人设备上使用名片侠应用。</p>
+      <h2>6. 知识产权（Intellectual Property）</h2>
+      <p>如第三方主张许可应用或你对其的占有与使用侵犯其知识产权，<strong>由我们</strong>独自负责调查、抗辩、和解及处理该等权利主张。 [oai_citation:6‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
 
-        <h3>4.2 使用限制</h3>
-        <p>您同意不会：</p>
-        <ul>
-            <li>复制、修改或分发应用</li>
-            <li>进行反向工程或试图提取源代码</li>
-            <li>用于任何非法或未经授权的目的</li>
-            <li>干扰应用的正常运行</li>
-        </ul>
+      <h2>7. 法律合规（出口/制裁）</h2>
+      <p>你声明并保证：(i) 你不位于任何受美国政府禁运或被指定为“支持恐怖主义”的国家/地区；(ii) 你不在任何美国政府的禁止或限制名单上。 [oai_citation:7‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
 
-        <h2>5. 用户内容和数据</h2>
-        
-        <h3>5.1 用户数据</h3>
-        <p>您上传到名片侠的所有内容（包括名片图像和联系信息）仍归您所有。我们仅为提供服务而处理这些数据。</p>
+      <h2>8. 开发者信息（Developer Name &amp; Address）</h2>
+      <div class="block">
+        开发者：<strong>Yellowpeppers</strong><br>
+        邮箱：<strong>charlotteandhisdog@gmail.com</strong>
+      </div>
+      <p class="muted">以上信息用于接收用户关于许可应用的咨询、投诉或权利主张。 [oai_citation:8‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
 
-        <h3>5.2 数据安全</h3>
-        <p>我们采取合理的安全措施保护您的数据，但无法保证绝对安全。详细信息请参阅我们的隐私政策。</p>
+      <h2>9. 第三方条款（Third-Party Terms）</h2>
+      <p>你在使用本应用时应遵守适用的第三方协议（例如蜂窝数据/宽带服务协议等）。 [oai_citation:9‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
 
-        <h2>6. 免责声明</h2>
-        <p>名片侠按"现状"提供服务。我们不保证：</p>
-        <ul>
-            <li>服务的持续可用性</li>
-            <li>识别结果的100%准确性</li>
-            <li>服务不会中断或无错误</li>
-        </ul>
+      <h2>10. 第三方受益人（Third-Party Beneficiary）</h2>
+      <p>你与我们确认并同意：<strong>Apple 及其子公司为本 EULA 的第三方受益人</strong>；在你接受本 EULA 后，Apple 有权（且被视为已接受该权利）以第三方受益人身份对你执行本 EULA。 [oai_citation:10‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
 
-        <h2>7. 责任限制</h2>
-        <p>在法律允许的最大范围内，我们对因使用或无法使用本服务而产生的任何直接、间接、偶然或后果性损害不承担责任。</p>
+      <h2>11. 订阅与计费（如适用）</h2>
+      <ul>
+        <li><strong>订阅类型与价格：</strong>以 App 内与 App Store 显示为准（不同地区价格不同）。</li>
+        <li><strong>自动续订：</strong>除非在当前周期结束前至少 24 小时取消，订阅将自动续订并扣费。</li>
+        <li><strong>付款与扣费：</strong>通过你的 Apple ID 账户支付及续费。</li>
+        <li><strong>取消与管理：</strong>前往“设置 &gt; Apple ID &gt; 订阅”可随时管理或取消；或在 App 内进入“管理订阅”入口（调用系统订阅管理页）。 [oai_citation:11‡Apple Developer](https://developer.apple.com/documentation/storekit/appstore/showmanagesubscriptions%28in%3A%29?utm_source=chatgpt.com)</li>
+        <li><strong>权益披露：</strong>我们会在订阅流程中清晰展示订阅标题、时长、价格、自动续订与取消方式，并提供本 EULA 及隐私政策的可访问链接。</li>
+      </ul>
 
-        <h2>8. 服务变更和终止</h2>
-        
-        <h3>8.1 服务变更</h3>
-        <p>我们保留随时修改或停止服务（或其任何部分）的权利，无需提前通知。</p>
+      <h2>12. 使用规范与禁止行为</h2>
+      <ul>
+        <li>不得对本应用进行复制、修改、反向工程或试图提取源代码。</li>
+        <li>不得用于任何违法或未经授权的目的；不得干扰或破坏应用的正常运行。</li>
+      </ul>
 
-        <h3>8.2 账户终止</h3>
-        <p>我们可能因违反本条款而终止或暂停您的账户访问权限。</p>
+      <h2>13. 隐私与数据</h2>
+      <p>我们将依据<a href="https://yellowpeppers.github.io/CardMaster-Privacy/" target="_blank" rel="noopener">《隐私政策》</a>处理你的数据。请在使用前仔细阅读。</p>
 
-        <h2>9. 退款政策</h2>
-        <p>所有订阅销售均为最终销售。退款请求请联系Apple客服，我们将配合处理合理的退款要求。</p>
+      <h2>14. 终止</h2>
+      <p>如你实质性违反本 EULA，我们可在法律允许范围内暂停或终止你对许可应用的使用权；终止不影响已产生的权利与救济。</p>
 
-        <h2>10. 条款修改</h2>
-        <p>我们可能会不时修改这些服务条款。重大修改将通过应用内通知告知用户。继续使用服务即表示接受修改后的条款。</p>
+      <h2>15. 其他条款</h2>
+      <ul>
+        <li>若本 EULA 任一条款被认定无效或不可执行，其余条款仍有效。</li>
+        <li>未行使或延迟行使任何权利不构成放弃。</li>
+        <li>本 EULA 不限制法律不可限制或排除的消费者权利。</li>
+      </ul>
 
-        <h2>11. 适用法律</h2>
-        <p>本服务条款受中华人民共和国法律管辖，如发生争议，应通过友好协商解决。</p>
-
-        <div class="contact">
-            <h2>12. 联系我们</h2>
-            <p>如果您对这些服务条款有任何问题或意见，请通过以下方式联系我们：</p>
-            <ul>
-                <li><strong>应用内反馈：</strong>使用名片侠应用内的反馈功能</li>
-                <li><strong>App Store：</strong>在App Store上留言或评价</li>
-            </ul>
-            <p><strong>响应时间：</strong>我们将在收到您的查询后72小时内回复。</p>
-        </div>
-
-        <div class="effective-date">
-            <hr>
-            <p>本服务条款最后更新：2025年8月27日</p>
-            <p>版本：1.0</p>
-        </div>
-    </div>
+      <section class="footer">
+        <p>参考与合规：本协议已纳入 Apple <em>Instructions for Minimum Terms of Developer’s End-User License Agreement</em> 要求之 10 项条款，以及 <a href="https://www.apple.com/legal/internet-services/itunes/cn/terms.html" target="_blank" rel="noopener">Apple 媒体服务条款（含 Usage Rules）</a>。 [oai_citation:12‡Apple](https://www.apple.com/legal/internet-services/itunes/dev/minterms/)</p>
+        <p class="muted">如需英文版本或纯文本版本用于 App Store 提交，请联系我们。</p>
+      </section>
+    </article>
+  </main>
 </body>
 </html>
